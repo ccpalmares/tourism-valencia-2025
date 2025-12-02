@@ -109,6 +109,18 @@ html {
     background-color: #0038A8;
 }
 
+.navbar-nav .nav-item:nth-child(9) .nav-link:hover,
+.navbar-nav .nav-item:nth-child(9) .nav-link:focus,
+.navbar-nav .nav-item:nth-child(9) .nav-link.active {
+    background-color: #CE1126;
+}
+
+.navbar-nav .nav-item:nth-child(10) .nav-link:hover,
+.navbar-nav .nav-item:nth-child(10) .nav-link:focus,
+.navbar-nav .nav-item:nth-child(10) .nav-link.active {
+    background-color: #0038A8;
+}
+
 @media (max-width: 991.98px) {
     .navbar-nav .nav-item {
         margin-bottom: 0.5rem;
