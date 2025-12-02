@@ -15,14 +15,16 @@ html {
     scroll-behavior: smooth;
 }
 
-.btn-primary, .btn {
+.btn-primary,
+.btn {
     background-color: #0038A8 !important;
     border-color: #0038A8 !important;
     border-radius: 30px !important;
     padding: 0.5rem 4rem !important;
 }
 
-.btn-primary:hover, .btn-primary:focus {
+.btn-primary:hover,
+.btn-primary:focus {
     background-color: #002A75 !important;
     border-color: #002A75 !important;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
@@ -37,7 +39,7 @@ html {
 
 .valencia-seal:hover {
     transform: scale(1.1);
-    transition: transform 150ms ease;
+    transition: transform 180ms ease;
 }
 
 .navbar {
@@ -49,6 +51,7 @@ html {
     align-items: center;
     justify-content: center;
 }
+
 .navbar-nav .nav-link {
     color: #1e1e1e;
     padding: 0.5rem 1rem;
@@ -56,6 +59,7 @@ html {
     transition: background-color 150ms ease, color 150ms ease, transform 80ms ease;
     text-decoration: none;
 }
+
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link:focus,
 .navbar-nav .nav-link.active {
@@ -68,34 +72,52 @@ html {
 .navbar-nav .nav-item:nth-child(2) .nav-link.active {
     background-color: #0038A8;
 }
+
 .navbar-nav .nav-item:nth-child(3) .nav-link:hover,
 .navbar-nav .nav-item:nth-child(3) .nav-link:focus,
 .navbar-nav .nav-item:nth-child(3) .nav-link.active {
     background-color: #CE1126;
 }
+
 .navbar-nav .nav-item:nth-child(4) .nav-link:hover,
 .navbar-nav .nav-item:nth-child(4) .nav-link:focus,
 .navbar-nav .nav-item:nth-child(4) .nav-link.active {
     background-color: #0038A8;
 }
+
 .navbar-nav .nav-item:nth-child(5) .nav-link:hover,
 .navbar-nav .nav-item:nth-child(5) .nav-link:focus,
 .navbar-nav .nav-item:nth-child(5) .nav-link.active {
     background-color: #CE1126;
 }
+
 .navbar-nav .nav-item:nth-child(6) .nav-link:hover,
 .navbar-nav .nav-item:nth-child(6) .nav-link:focus,
 .navbar-nav .nav-item:nth-child(6) .nav-link.active {
     background-color: #0038A8;
 }
+
 .navbar-nav .nav-item:nth-child(7) .nav-link:hover,
 .navbar-nav .nav-item:nth-child(7) .nav-link:focus,
 .navbar-nav .nav-item:nth-child(7) .nav-link.active {
     background-color: #CE1126;
 }
+
 .navbar-nav .nav-item:nth-child(8) .nav-link:hover,
 .navbar-nav .nav-item:nth-child(8) .nav-link:focus,
 .navbar-nav .nav-item:nth-child(8) .nav-link.active {
+    background-color: #0038A8;
+}
+
+.navbar-nav .nav-item:nth-child(9) .nav-link:hover,
+.navbar-nav .nav-item:nth-child(9) .nav-link:focus,
+.navbar-nav .nav-item:nth-child(9) .nav-link.active {
+    background-color: #CE1126;
+}
+
+.navbar-nav .nav-item:nth-child(10) .nav-link:hover,
+.navbar-nav .nav-item:nth-child(10) .nav-link:focus,
+.navbar-nav .nav-item:nth-child(10) .nav-link.active {
     background-color: #0038A8;
 }
 
@@ -105,30 +127,34 @@ html {
     }
 }
 
-.category-card:hover,.card:hover {
-      transform: translateY(-8px);
+.category-card:hover,
+.card:hover {
+    transform: translateY(-8px);
 }
 
 .accommodations-foods .row {
     display: flex;
     flex-wrap: wrap;
 }
+
 .accommodations-foods .col {
     display: flex;
     flex: 0 0 100%;
     max-width: 100%;
     padding: var(--bs-gutter-x, 0.5rem);
 }
+
 @media (min-width: 768px) {
     .accommodations-foods .col {
         flex: 0 0 50%;
         max-width: 50%;
     }
 }
+
 @media (min-width: 992px) {
     .accommodations-foods .col {
-        flex: 0 0 25%;
-        max-width: 25%;
+        flex: 0 0 20%;
+        max-width: 20%;
     }
 }
 
@@ -138,16 +164,16 @@ html {
     display: flex;
     flex-direction: column;
     height: 100%;
-    min-height: 480px; 
+    min-height: 480px;
 }
 
 .card .card-img-top {
     width: 100%;
-    height: 180px; 
+    height: 180px;
     object-fit: cover;
     object-position: center;
     display: block;
-    padding: 0 !important; 
+    padding: 0 !important;
 }
 
 .card-body {
@@ -160,7 +186,8 @@ html {
     overflow-x: hidden;
 }
 
-.card-body h5, .card-body p {
+.card-body h5,
+.card-body p {
     text-align: start !important;
     margin-bottom: 0.5rem;
 }
@@ -169,9 +196,11 @@ html {
     .card {
         min-height: 420px;
     }
+
     .card .card-img-top {
         height: 160px;
     }
+
     .card-body {
         max-height: 240px;
     }
@@ -181,9 +210,11 @@ html {
     .card {
         min-height: 380px;
     }
+
     .card .card-img-top {
         height: 140px;
     }
+
     .card-body {
         max-height: 220px;
     }
