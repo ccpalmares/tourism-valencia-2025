@@ -8,6 +8,7 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
 .developer-page-content {
     background-color: rgba(243, 243, 243, 0.7);
     padding: 1rem;
@@ -51,37 +52,56 @@ html {
 }
 
 .navbar-nav .nav-item:nth-child(2) .nav-link:hover,
+.navbar-nav .nav-item:nth-child(2) .nav-link:focus,
 .navbar-nav .nav-item:nth-child(2) .nav-link.active {
     background-color: #0038A8;
 }
 
 .navbar-nav .nav-item:nth-child(3) .nav-link:hover,
+.navbar-nav .nav-item:nth-child(3) .nav-link:focus,
 .navbar-nav .nav-item:nth-child(3) .nav-link.active {
     background-color: #CE1126;
 }
 
 .navbar-nav .nav-item:nth-child(4) .nav-link:hover,
+.navbar-nav .nav-item:nth-child(4) .nav-link:focus,
 .navbar-nav .nav-item:nth-child(4) .nav-link.active {
     background-color: #0038A8;
 }
 
 .navbar-nav .nav-item:nth-child(5) .nav-link:hover,
+.navbar-nav .nav-item:nth-child(5) .nav-link:focus,
 .navbar-nav .nav-item:nth-child(5) .nav-link.active {
     background-color: #CE1126;
 }
 
 .navbar-nav .nav-item:nth-child(6) .nav-link:hover,
+.navbar-nav .nav-item:nth-child(6) .nav-link:focus,
 .navbar-nav .nav-item:nth-child(6) .nav-link.active {
     background-color: #0038A8;
 }
 
 .navbar-nav .nav-item:nth-child(7) .nav-link:hover,
+.navbar-nav .nav-item:nth-child(7) .nav-link:focus,
 .navbar-nav .nav-item:nth-child(7) .nav-link.active {
     background-color: #CE1126;
 }
 
 .navbar-nav .nav-item:nth-child(8) .nav-link:hover,
+.navbar-nav .nav-item:nth-child(8) .nav-link:focus,
 .navbar-nav .nav-item:nth-child(8) .nav-link.active {
+    background-color: #0038A8;
+}
+
+.navbar-nav .nav-item:nth-child(9) .nav-link:hover,
+.navbar-nav .nav-item:nth-child(9) .nav-link:focus,
+.navbar-nav .nav-item:nth-child(9) .nav-link.active {
+    background-color: #CE1126;
+}
+
+.navbar-nav .nav-item:nth-child(10) .nav-link:hover,
+.navbar-nav .nav-item:nth-child(10) .nav-link:focus,
+.navbar-nav .nav-item:nth-child(10) .nav-link.active {
     background-color: #0038A8;
 }
 
@@ -240,6 +260,7 @@ html {
 .card-body {
     padding-bottom: 3rem;
 }
+
 .card:hover {
     transform: translateY(-4px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
@@ -309,4 +330,20 @@ html {
 .municipal-council-mem {
     font-size: clamp(0.95rem, 1.8vw, 1.1rem);
     line-height: 1.5;
+}
+
+.btn-primary,
+.btn {
+    background-color: #0038A8 !important;
+    border-color: #0038A8 !important;
+    border-radius: 30px !important;
+    padding: 0.5rem 4rem !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #002A75 !important;
+    border-color: #002A75 !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    transform: translateY(-2px) !important;
 }
