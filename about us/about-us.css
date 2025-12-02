@@ -18,19 +18,24 @@ html {
     display: block;
 }
 
-.valencia-seal, .fb-logo, .gmail-logo {
+.valencia-seal,
+.fb-logo,
+.gmail-logo {
     height: 40px;
     width: auto;
     margin-bottom: 5px;
 }
 
-.ac-logo, .cse-logo {
+.ac-logo,
+.cse-logo {
     height: 70px;
     width: auto;
     margin-bottom: 5px;
 }
 
-.valencia-seal:hover, .fb-logo:hover, .gmail-logo:hover {
+.valencia-seal:hover,
+.fb-logo:hover,
+.gmail-logo:hover {
     transform: scale(1.1);
     transition: transform 150ms ease;
 }
@@ -44,6 +49,7 @@ html {
     align-items: center;
     justify-content: center;
 }
+
 .navbar-nav .nav-link {
     color: #1e1e1e;
     padding: 0.5rem 1rem;
@@ -51,6 +57,7 @@ html {
     transition: background-color 150ms ease, color 150ms ease, transform 80ms ease;
     text-decoration: none;
 }
+
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link:focus,
 .navbar-nav .nav-link.active {
@@ -63,34 +70,52 @@ html {
 .navbar-nav .nav-item:nth-child(2) .nav-link.active {
     background-color: #0038A8;
 }
+
 .navbar-nav .nav-item:nth-child(3) .nav-link:hover,
 .navbar-nav .nav-item:nth-child(3) .nav-link:focus,
 .navbar-nav .nav-item:nth-child(3) .nav-link.active {
     background-color: #CE1126;
 }
+
 .navbar-nav .nav-item:nth-child(4) .nav-link:hover,
 .navbar-nav .nav-item:nth-child(4) .nav-link:focus,
 .navbar-nav .nav-item:nth-child(4) .nav-link.active {
     background-color: #0038A8;
 }
+
 .navbar-nav .nav-item:nth-child(5) .nav-link:hover,
 .navbar-nav .nav-item:nth-child(5) .nav-link:focus,
 .navbar-nav .nav-item:nth-child(5) .nav-link.active {
     background-color: #CE1126;
 }
+
 .navbar-nav .nav-item:nth-child(6) .nav-link:hover,
 .navbar-nav .nav-item:nth-child(6) .nav-link:focus,
 .navbar-nav .nav-item:nth-child(6) .nav-link.active {
     background-color: #0038A8;
 }
+
 .navbar-nav .nav-item:nth-child(7) .nav-link:hover,
 .navbar-nav .nav-item:nth-child(7) .nav-link:focus,
 .navbar-nav .nav-item:nth-child(7) .nav-link.active {
     background-color: #CE1126;
 }
+
 .navbar-nav .nav-item:nth-child(8) .nav-link:hover,
 .navbar-nav .nav-item:nth-child(8) .nav-link:focus,
 .navbar-nav .nav-item:nth-child(8) .nav-link.active {
+    background-color: #0038A8;
+}
+
+.navbar-nav .nav-item:nth-child(9) .nav-link:hover,
+.navbar-nav .nav-item:nth-child(9) .nav-link:focus,
+.navbar-nav .nav-item:nth-child(9) .nav-link.active {
+    background-color: #CE1126;
+}
+
+.navbar-nav .nav-item:nth-child(10) .nav-link:hover,
+.navbar-nav .nav-item:nth-child(10) .nav-link:focus,
+.navbar-nav .nav-item:nth-child(10) .nav-link.active {
     background-color: #0038A8;
 }
 
@@ -109,27 +134,43 @@ html {
     padding-bottom: 3rem;
 }
 
-.mugshots-card .row {
-    align-items: stretch;
-}
-.mugshots-card .row > .col {
-    display: flex;
-}
-.mugshots-card .row > .col .card {
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 auto; 
-    margin: 0; 
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .card .card-img-top {
     width: 100%;
-    height: auto; 
-    max-height: 240px; 
-    object-fit: contain; 
+    height: auto;
+    max-height: 240px;
+    object-fit: contain;
+    object-position: center;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.mugshots-card .row {
+    align-items: stretch;
+}
+
+.mugshots-card .row>.col {
+    display: flex;
+}
+
+.mugshots-card .row>.col .card {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    margin: 0;
+}
+
+.card .card-img-top {
+    width: 100%;
+    height: auto;
+    max-height: 240px;
+    object-fit: contain;
     object-position: center;
     display: block;
-    background-color: rgba(255,255,255,0.05); 
+    background-color: rgba(255, 255, 255, 0.05);
 }
 
 .card .card-body {
@@ -140,8 +181,29 @@ html {
 }
 
 @media (max-width: 991.98px) {
-  .card .card-img-top { max-height: 200px; }
+    .card .card-img-top {
+        max-height: 200px;
+    }
 }
+
 @media (max-width: 575.98px) {
-  .card .card-img-top { max-height: 160px; }
+    .card .card-img-top {
+        max-height: 160px;
+    }
+}
+
+.btn-primary,
+.btn {
+    background-color: #0038A8 !important;
+    border-color: #0038A8 !important;
+    border-radius: 30px !important;
+    padding: 0.5rem 4rem !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #002A75 !important;
+    border-color: #002A75 !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    transform: translateY(-2px) !important;
 }
